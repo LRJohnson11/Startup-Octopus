@@ -16,6 +16,9 @@ main{
 footer {
   flex: 0 30;
 }
+footer a{
+  float: right;
+}
 menu{
   flex: 1;
   display: flex;
