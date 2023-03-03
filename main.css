@@ -9,7 +9,7 @@ header{
 main{
   flex: 1 calc(00vh - 110px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
