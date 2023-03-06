@@ -38,14 +38,16 @@ main div{
   flex: 1
 }
 #display {
-  flex: 4;
+  flex: 5;
   flex-direction: row;
   flex-wrap:auto;
 }
 #controls {
   flex:1;
   flex-direction: row;
-  flex-wrap:auto;
+  flex-wrap: wrap;
+  align-items: justify;
+  
   
 }
 main menu {

@@ -14,3 +14,20 @@ From creating a webdomain and renting a server from AWS, Its impressive how simp
 # html on simon practice
 
 Working on this, I feel more capable of using HTML. it feels more natural and intuitive, and I feel like if i needed to, I could write my next research paper using it.
+
+# CSS simon and startup
+
+start from the biggest things, and work your way down!!!!
+json: "key"-value pairs
+. for class
+#: for ID
+Padding around content
+Border in the middle
+margin is the outside
+know array functions
+map -> make array of equal size and 'map' everything over from 
+remember .then syntax
+chmod +x makes executable javascript
+
+REVIEW for midterm:
+javascript and how it affects html, css selectors
