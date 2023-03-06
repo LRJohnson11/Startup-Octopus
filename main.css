@@ -7,10 +7,10 @@ header{
   flex: 0 80px;
 }
 main{
-  flex: 1 calc(00vh - 110px);
+  flex: 1 calc(100ch - 110px);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
 }
 footer {
@@ -33,13 +33,25 @@ menu.nav-item{
   padding: 0 0.3em;
 }
 main div{
-  display:flex;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   flex: 1
 }
-#controls{
-  flex: 1;
-}
-#display{
+#display {
   flex: 4;
+  flex-direction: row;
+  flex-wrap:auto;
+}
+#controls {
+  flex:1;
+  flex-direction: row;
+  flex-wrap:auto;
+  
+}
+main menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  
 }
