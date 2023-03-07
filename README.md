@@ -29,5 +29,5 @@ map -> make array of equal size and 'map' everything over from
 remember .then syntax
 chmod +x makes executable javascript
 
-REVIEW for midterm:
-javascript and how it affects html, css selectors
+#javascript on simon
+debugging can be really difficult. Flow can be difficult to visualize too. Break it down into how its going to go, and take it one step at a time. careful with promises since they run on the side. .then and async are both very useful to create flow in an out-of-sequence way. .then() => val is handy, and keep it simple stupid!!!!
