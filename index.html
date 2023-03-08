@@ -12,7 +12,7 @@
     crossorigin="anonymous"/>
   </head>
   <body class="bg-dark text-light">
-    <header class="container-fluid">
+    <header class="sticky-top">
       <nav class="navbar fixed-top navbar-dark">
         <a class="navbar-brand" href="#">GroupStudy</a>
         <menu class="navbar-nav">
@@ -32,19 +32,28 @@
     <main class="container-fluid bg-secondary text-center">
       <div class="container-fluid">
         <section class="controls" ID="controls">
-          <menu class="navbar-dark">
-            <div>Options</div>
+          <menu class="navbar">
+            <h2>Options</h2>
             <button class="btn btn-primary">New Notebook</button>
             <button class="btn btn-secondary">Add note +</button>
           </menu>
         </section>
-        <section class="UI" ID="display">
-          <div class="card card-body">
+        <section class="bg-dark" ID="display">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title" style="color:black">Note Title</h4>
+                <div class="card-body">
+                  <p class="card-text" style="color:black"> Flavorful text in a note</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="card card-body"></div>
           </div>
+          
         </section>
       </div>
-      <!--controls go here-->
-      <!--main UI here-->
     </main>
     <footer class="bg-dark text-dark text-muted">
       <div class="container-fluid">

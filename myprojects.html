@@ -28,15 +28,26 @@
         </menu>
       </nav>
     </header>
-    <main class="bg-secondary">
-      <section class="controls">
-        <button class="btn btn-primary">New Shared Notebook +</button>
-        <p>
-          list of possible projects to select. Each project page will have an unknown look for the moment.
-        </p>
-
-      </section>
-
+    <main class="container-fluid bg-secondary text-center">
+      <div class="container-fluid">
+        <section class="controls" ID="controls">
+          <menu class="navbar">
+            <h2>Select Notebook</h2>
+            <button class="btn btn-primary">New Notebook</button>
+            <button class="btn btn-secondary">Add note +</button>
+          </menu>
+        </section>
+        <section class="bg-dark" ID="display">
+          <div class="card card-body">
+          </div>
+        </section>
+      </div>
     </main>
+    <footer class="bg-dark text-dark text-muted">
+      <div class="container-fluid">
+        <span class="text-reset">Luke Johnson</span>
+        <a class="text-reset" href="https://github.com/LRJohnson11/Startup-Octopus">Github</a>
+      </div>
+    </footer>
   </body>
 </html>
