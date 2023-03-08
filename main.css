@@ -9,7 +9,7 @@ header{
 main{
   flex: 1 calc(100ch - 110px);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: left;
   justify-content: space-around;
   margin: 1em;
@@ -38,6 +38,8 @@ main div{
   flex-direction: row;
   flex: 1;
   margin: 1%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #display {
   flex: 7;
@@ -49,7 +51,6 @@ main div{
   flex:1;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-self: center;
   margin-right: 2%;
   margin-left: 2%;
   justify-content: center;
@@ -65,4 +66,12 @@ main menu {
 li {
   padding-left: 1em;
   padding: 1em;
+}
+.card-container{
+  flex:1;
+  flex-wrap:wrap;
+  flex-direction: column;
+}
+.card {
+  width: 100%
 }
