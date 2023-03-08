@@ -29,5 +29,10 @@ map -> make array of equal size and 'map' everything over from
 remember .then syntax
 chmod +x makes executable javascript
 
-#javascript on simon
+# javascript on simon
+
 debugging can be really difficult. Flow can be difficult to visualize too. Break it down into how its going to go, and take it one step at a time. careful with promises since they run on the side. .then and async are both very useful to create flow in an out-of-sequence way. .then() => val is handy, and keep it simple stupid!!!!
+
+# debugging CSS on startup
+
+Breaking down the CSS and HTML elements is a biggest-> smallest relationship, so taking it from the biggest element to the smallest element is the best approach to getting it to make sense. Keep track of using body, dividing in to header, body, and footer, and divide those respectively using all of the tags. CSS will likewise break-down from biggest to smallest if you let it be so simple. Its backwards of how every other language works, but keep it in mind
