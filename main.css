@@ -6,6 +6,9 @@ body {
 header{
   flex: 0 80px;
 }
+ul {
+  list-style: none;
+}
 main{
   flex: 1 calc(100ch - 110px);
   display: flex;
@@ -75,4 +78,11 @@ li {
 }
 .card {
   width: 100%
+}
+
+main div.login{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
