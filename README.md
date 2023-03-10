@@ -36,3 +36,10 @@ debugging can be really difficult. Flow can be difficult to visualize too. Break
 # debugging CSS on startup
 
 Breaking down the CSS and HTML elements is a biggest-> smallest relationship, so taking it from the biggest element to the smallest element is the best approach to getting it to make sense. Keep track of using body, dividing in to header, body, and footer, and divide those respectively using all of the tags. CSS will likewise break-down from biggest to smallest if you let it be so simple. Its backwards of how every other language works, but keep it in mind
+
+# constructing JS on startup
+Functions to implement:
+login: basic take in username and spit it back on other pages
+addNote: adds a note 
+addNotebook: creates a new Notebook object?
+share: adds users that should also have access to the account.
