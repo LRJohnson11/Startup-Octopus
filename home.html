@@ -25,7 +25,7 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
       </menu>
-      <p class="userData">Welcome</p>
+      <p id="userData">Welcome</p>
     </nav>
   </header>
 
@@ -34,37 +34,14 @@
       <section class="controls" ID="controls">
         <menu class="navbar">
           <h2>Options</h2>
-          <button class="btn btn-primary">New Notebook</button>
-          <button class="btn btn-secondary">Add note +</button>
+          <button class="btn btn-primary" onclick="startNotebook()">New Notebook</button>
+          <div class="newNotebook"></div>
         </menu>
       </section>
 
       <section class="bg-dark" ID="display">
         <div class="card-container">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title" style="color:black">Note Title</h4>
-                <div class="card-body">
-                  <p class="card-text" style="color:black"> Flavorful text in a note</p>
-                </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title" style="color:black">Note Title</h4>
-                <div class="card-body">
-                  <p class="card-text" style="color:black"> Flavorful text in a note</p>
-                </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title" style="color:black">Note Title</h4>
-                <div class="card-body">
-                  <p class="card-text" style="color:black"> Flavorful text in a note</p>
-                </div>
-            </div>
-          </div>
+          
         </div>
       </section>
     </div>
@@ -76,6 +53,7 @@
       <a class="text-reset" href="https://github.com/LRJohnson11/Startup-Octopus">Github</a>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
