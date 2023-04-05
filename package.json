@@ -1,0 +1,27 @@
+{
+  "name": "startup-octopus",
+  "version": "1.0.0",
+  "description": "Sometimes you just need a quick, online voting tool, whether it be annonymous or not, to settle any number of group situations. Trying to decide which movie to watch? Trying to pick where to go for dinner? Who in the room looks the most like Tom Cruise? The limits to what the basic voting tool could do is limitless. You can put timers and images to spice up some games, or make it annonymous if the subject might be sensitive. Make decisions and enjoy games together from OctoVote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRJohnson11/Startup-Octopus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRJohnson11/Startup-Octopus/issues"
+  },
+  "homepage": "https://github.com/LRJohnson11/Startup-Octopus#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
