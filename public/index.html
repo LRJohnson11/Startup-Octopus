@@ -40,10 +40,17 @@
         <li>
           <input type="password" id="password" placeholder="Password">
         </li>
-        <li class="btn btn-primary" onclick="login()">Log in</li>
+        <li>
+          <span class="buttons-layout">
+            <button class="btn btn-primary" onclick="login()">Log in</button>
+            <button class="btn btn-secondary" onclick="newUser()">New account</button>
+          </span>
+        </li>
+        <li>
+          <span class="modal-body"></span>
+        </li>
       </ul>
       <span>
-        <p>No Account? <a href="newAccount.html"> Click here!</a></p>
       </span>
     </section>
     </div>

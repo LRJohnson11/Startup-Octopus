@@ -70,6 +70,7 @@ li {
   padding-left: 1em;
   padding: 1em;
 }
+/* separate buttons */
 .card-container{
   flex:1;
   flex-wrap:wrap;
