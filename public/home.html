@@ -8,6 +8,7 @@
   <link rel="icon" href="groupstudy.ico" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="login.js"></script>
 </head>
 
 <body class="bg-dark text-light">
@@ -25,7 +26,11 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
       </menu>
-      <p id="userData">Welcome</p>
+      <span>
+        <p id="userData">Welcome</p>
+        <button class="btn-primary"onclick="logout()">Log out</button>
+      </span>
+
     </nav>
   </header>
 

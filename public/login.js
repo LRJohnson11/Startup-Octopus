@@ -11,6 +11,11 @@
     play();
   }
 });
+function logout(){
+  fetch(`/api/auth/logout`, {
+    method: 'delete',//remove cookie
+  }).then(() => (window.location.href = '/')) //redirect to login page
+}
 
 function proceed(){
   window.location.href = "home.html";

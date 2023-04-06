@@ -51,5 +51,5 @@ todo:
  - send notebooks to mongo
  - create account based priveledges
  - enable sharing
- - login capacity
+ - login capacity - Done!
  - a chat feature which is saved for each notebook, allowing conversation on given notes
