@@ -43,3 +43,13 @@ login: basic take in username and spit it back on other pages
 addNote: adds a note 
 addNotebook: creates a new Notebook object?
 share: adds users that should also have access to the account.
+
+
+#Service endpoints on webapp:
+todo:
+ - repair the  js file to construct classes and initialize them using db data pulled from mongo.
+ - send notebooks to mongo
+ - create account based priveledges
+ - enable sharing
+ - login capacity
+ - a chat feature which is saved for each notebook, allowing conversation on given notes
