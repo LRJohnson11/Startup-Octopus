@@ -46,6 +46,8 @@ share: adds users that should also have access to the account.
 
 
 #Service endpoints on webapp:
+Creating an effective web application is difficult, and using nodes has to be really intentional. Most code is pretty reusable for setting these things up too.
+
 todo:
  - repair the  js file to construct classes and initialize them using db data pulled from mongo.
  - send notebooks to mongo
